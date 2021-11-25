@@ -1,5 +1,4 @@
 const Sequelize = require("sequelize");
-const { default: ModelManager } = require("sequelize/dist/lib/model-manager");
 const connection = require("./database");
 
 const Pergunta = connection.define('pergunta', {
